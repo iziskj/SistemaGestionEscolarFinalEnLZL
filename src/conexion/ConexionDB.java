@@ -29,6 +29,10 @@ public class ConexionDB {
         }catch(SQLException e){
             //Manejar el error de SQL
             System.out.print("Error en la conexion: " + e.getMessage());
+            
+            //pruebas de la conexion al repositorio
+            System.out.println("Prueba 1 de GIT");
+            
         }
         return conn;
     }
